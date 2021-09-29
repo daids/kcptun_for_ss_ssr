@@ -114,14 +114,7 @@ Get_Dist_Name(){
 }
 # Check OS bit
 Get_OS_Bit(){
-    ARCHS=""
-    if [[ `getconf WORD_BIT` = '32' && `getconf LONG_BIT` = '64' ]] ; then
-        Is_64bit='y'
-        ARCHS="amd64"
-    else
-        Is_64bit='n'
-        ARCHS="386"
-    fi
+    ARCHS="arm64"
 }
 # Check system
 check_sys(){
