@@ -28,5 +28,5 @@ export SSRR_APT_INIT="https://raw.githubusercontent.com/onekeyshell/kcptun_for_s
 export KCPTUN_VER=20181114
 export KCPTUN_AMD64_LINK="https://github.com/xtaci/kcptun/releases/download/v${KCPTUN_VER}/kcptun-linux-amd64-${KCPTUN_VER}.tar.gz"
 export KCPTUN_386_LINK="https://github.com/xtaci/kcptun/releases/download/v${KCPTUN_VER}/kcptun-linux-386-${KCPTUN_VER}.tar.gz"
-export KCPTUN_ARM64_LINK="https://github.com/xtaci/kcptun/releases/download/v${KCPTUN_VER}/kcptun-linux-amd64-${KCPTUN_VER}.tar.gz"
+export KCPTUN_ARM64_LINK="https://github.com/xtaci/kcptun/releases/download/v${KCPTUN_VER}/kcptun-linux-arm64-${KCPTUN_VER}.tar.gz"
 export KCPTUN_INIT="https://raw.githubusercontent.com/onekeyshell/kcptun_for_ss_ssr/master/kcptun.init"
